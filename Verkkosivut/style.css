@@ -1,0 +1,97 @@
+header {
+    font-size: 100px;
+   padding: 20px;
+   text-align: center;
+}
+
+body {
+    background-image: url("IMG_4721.jpg");
+    background-position: center;
+  }
+
+  nav {
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav a {
+    display: block;
+    background: transparent;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 40px;
+    color: white;
+  }
+
+  nav a:hover {
+    color: red;
+  }
+
+  .container {
+    width: 100%;
+    margin-top: 100px;
+}
+
+article {
+    margin: auto;
+    width: 65%;
+    padding: 1em;
+    height: auto;
+    background: white;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: x-large;
+}
+section {
+    margin-top: 50px;
+    margin: auto;
+    width: 65%;
+    height:auto;
+    padding: 1em;
+    background: white;
+    font-size: x-large;
+
+}
+
+.slideshow-container {
+  max-width: 800px;
+  margin: auto;
+  position: relative;
+  text-align: center;
+}
+
+.slideshow-container img {
+  max-width: 100%;
+  height: 300px;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-top: 100px;
+}
+footer {
+  text-align: center;
+  font-size: x-large;
+  padding: 1em;
+  background: black;
+}
+footer a {
+color: white
+}
+footer a:hover {
+color: red;
+}
