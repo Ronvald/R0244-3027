@@ -1,0 +1,107 @@
+header {
+   padding: 150px;
+   background-image: url("IMG_0282.jpg");
+   background-size: cover;
+   background-position: center;
+}
+footer {
+  width: 100%;
+  float: right;
+  text-align: center;
+  font-size: x-large;
+  padding: 1em;
+  background-color: black;
+}
+footer a {
+color: white
+}
+footer a:hover {
+color: red;
+}
+body {
+  background-color: white;
+}
+
+nav {
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav a {
+    display: block;
+    background: transparent;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 40px;
+    color: black;
+  }
+
+  nav a:hover {
+    color: red;
+  }
+  .container {
+    width: 100%;
+}
+
+article {
+    float: left;
+    margin-top: 70px;
+    width: 50%;
+    padding: 1em;
+    height:auto;
+    font-size: x-large;
+}
+
+.image-container {
+    margin-top: 100px;
+    width: 540px;
+    height: auto;
+    float: right;
+  }
+  .image-container img {
+    width: 100%;
+    height: auto;
+    float: right;
+  }
+
+  section {
+    float: left;
+    margin-top: 100px;
+    width: 50%;
+    padding: 1em;
+    height:auto;
+    font-size: x-large;
+}
+.image-container-2 {
+    margin-top: 70px;
+    width: 540px;
+    height: auto;
+    float: right;
+  }
+  .image-container-2 img {
+    width: 100%;
+    height: auto;
+    float: right;
+  }
+  .image-container-3 {
+    margin-top: 70px;
+    width: 540px;
+    height: auto;
+    float: right;
+  }
+  .image-container-3 img {
+    width: 100%;
+    height: auto;
+    float: right;
+  }
